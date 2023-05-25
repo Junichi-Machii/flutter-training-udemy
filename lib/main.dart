@@ -7,9 +7,9 @@ void main(List<String> args) {
     MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("テスト純一アプリ"),
+          title: const Text("テストアプリ"),
         ),
-        body: const GradientContainer(),
+        body: const GradientContainer.purple(),
       ),
     ),
   );
